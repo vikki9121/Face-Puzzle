@@ -1,0 +1,78 @@
+html:focus-within {
+    overscroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overscroll-behavior: auto;
+    font-family: Arial;
+}
+
+.menu {
+    width: 60vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    background: rgba(109, 102, 102, 0.6);
+    text-align: center;
+    padding: 3vmin;
+    border: 1vmin rgba(0, 0, 0, 0.6) solid;
+    font-size: 7vmin;
+}
+
+button {
+    font-size: 6vmin;
+    background: rgb(123, 146, 196);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 2vmin;
+}
+
+button:hover {
+    background: orange;
+    color: black;
+}
+
+button:disabled {
+    background: lightgray;
+    color: gray;
+    cursor: default;
+}
+
+select {
+    font-size: 7vmin;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vmin;
+    outline: none;
+}
+
+#time {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scoresContainer {
+    height: 43vh;
+    overflow: auto;
+}
+
+input {
+    font-size: 7vmin;
+    border-radius: 1vmin;
+    width: 50%;
+    text-align: center;
+}
+
+#helperCanvas {
+    margin-top: -210px;
+    width: 28%;
+    margin-left: -63px;
+}
