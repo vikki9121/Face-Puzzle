@@ -7,3 +7,5 @@ The game uses PHP and MySql on the backend.
 To run this project
 - Use `VScode`.
 - Use `Live server` to run the project
+# Live Website
+Link: https://vikki9121.github.io/Face-Puzzle/
